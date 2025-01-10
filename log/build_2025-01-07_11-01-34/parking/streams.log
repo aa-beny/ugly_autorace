@@ -1,0 +1,21 @@
+[1.923s] Invoking command in '/home/open/work/src/parking': PYTHONPATH=/home/open/work/build/parking/prefix_override:/home/open/work/install/parking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/parking build --build-base /home/open/work/build/parking/build install --record /home/open/work/build/parking/install.log --single-version-externally-managed install_data
+[2.091s] running egg_info
+[2.092s] writing ../../build/parking/parking.egg-info/PKG-INFO
+[2.092s] writing dependency_links to ../../build/parking/parking.egg-info/dependency_links.txt
+[2.092s] writing entry points to ../../build/parking/parking.egg-info/entry_points.txt
+[2.092s] writing requirements to ../../build/parking/parking.egg-info/requires.txt
+[2.092s] writing top-level names to ../../build/parking/parking.egg-info/top_level.txt
+[2.094s] reading manifest file '../../build/parking/parking.egg-info/SOURCES.txt'
+[2.094s] writing manifest file '../../build/parking/parking.egg-info/SOURCES.txt'
+[2.094s] running build
+[2.094s] running build_py
+[2.094s] running install
+[2.095s] running install_lib
+[2.095s] running install_data
+[2.095s] running install_egg_info
+[2.097s] removing '/home/open/work/install/parking/lib/python3.10/site-packages/parking-0.0.0-py3.10.egg-info' (and everything under it)
+[2.097s] Copying ../../build/parking/parking.egg-info to /home/open/work/install/parking/lib/python3.10/site-packages/parking-0.0.0-py3.10.egg-info
+[2.097s] running install_scripts
+[2.111s] Installing parking script to /home/open/work/install/parking/lib/parking
+[2.111s] writing list of installed files to '/home/open/work/build/parking/install.log'
+[2.142s] Invoked command in '/home/open/work/src/parking' returned '0': PYTHONPATH=/home/open/work/build/parking/prefix_override:/home/open/work/install/parking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/parking build --build-base /home/open/work/build/parking/build install --record /home/open/work/build/parking/install.log --single-version-externally-managed install_data

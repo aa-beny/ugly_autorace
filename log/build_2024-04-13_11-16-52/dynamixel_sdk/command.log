@@ -1,0 +1,6 @@
+Invoking command in '/home/open/work/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/open/work/src/DynamixelSDK/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/open/work/install/dynamixel_sdk
+Invoked command in '/home/open/work/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/open/work/src/DynamixelSDK/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/open/work/install/dynamixel_sdk
+Invoking command in '/home/open/work/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/open/work/build/dynamixel_sdk -- -j16 -l16
+Invoked command in '/home/open/work/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/open/work/build/dynamixel_sdk -- -j16 -l16
+Invoking command in '/home/open/work/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/open/work/build/dynamixel_sdk
+Invoked command in '/home/open/work/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/open/work/build/dynamixel_sdk

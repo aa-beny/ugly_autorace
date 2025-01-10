@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/parking/parking.egg-info
+writing ../../build/parking/parking.egg-info/PKG-INFO
+writing dependency_links to ../../build/parking/parking.egg-info/dependency_links.txt
+writing entry points to ../../build/parking/parking.egg-info/entry_points.txt
+writing requirements to ../../build/parking/parking.egg-info/requires.txt
+writing top-level names to ../../build/parking/parking.egg-info/top_level.txt
+writing manifest file '../../build/parking/parking.egg-info/SOURCES.txt'
+reading manifest file '../../build/parking/parking.egg-info/SOURCES.txt'
+writing manifest file '../../build/parking/parking.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/open/work/build/parking/build
+creating /home/open/work/build/parking/build/lib
+creating /home/open/work/build/parking/build/lib/parking
+copying parking/__init__.py -> /home/open/work/build/parking/build/lib/parking
+copying parking/parking.py -> /home/open/work/build/parking/build/lib/parking
+running install
+running install_lib
+creating /home/open/work/install/parking/lib/python3.10/site-packages/parking
+copying /home/open/work/build/parking/build/lib/parking/__init__.py -> /home/open/work/install/parking/lib/python3.10/site-packages/parking
+copying /home/open/work/build/parking/build/lib/parking/parking.py -> /home/open/work/install/parking/lib/python3.10/site-packages/parking
+byte-compiling /home/open/work/install/parking/lib/python3.10/site-packages/parking/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/open/work/install/parking/lib/python3.10/site-packages/parking/parking.py to parking.cpython-310.pyc
+running install_data
+creating /home/open/work/install/parking/share/ament_index
+creating /home/open/work/install/parking/share/ament_index/resource_index
+creating /home/open/work/install/parking/share/ament_index/resource_index/packages
+copying resource/parking -> /home/open/work/install/parking/share/ament_index/resource_index/packages
+copying package.xml -> /home/open/work/install/parking/share/parking
+creating /home/open/work/install/parking/share/parking/launch
+copying launch/parking_launch.py -> /home/open/work/install/parking/share/parking/launch
+running install_egg_info
+Copying ../../build/parking/parking.egg-info to /home/open/work/install/parking/lib/python3.10/site-packages/parking-0.0.0-py3.10.egg-info
+running install_scripts
+Installing parking script to /home/open/work/install/parking/lib/parking
+writing list of installed files to '/home/open/work/build/parking/install.log'

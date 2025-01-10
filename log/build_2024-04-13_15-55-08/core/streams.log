@@ -1,0 +1,21 @@
+[6.680s] Invoking command in '/home/open/work/src/core': PYTHONPATH=/home/open/work/build/core/prefix_override:/home/open/work/install/core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/core build --build-base /home/open/work/build/core/build install --record /home/open/work/build/core/install.log --single-version-externally-managed install_data
+[7.206s] running egg_info
+[7.207s] writing ../../build/core/core.egg-info/PKG-INFO
+[7.208s] writing dependency_links to ../../build/core/core.egg-info/dependency_links.txt
+[7.208s] writing entry points to ../../build/core/core.egg-info/entry_points.txt
+[7.209s] writing requirements to ../../build/core/core.egg-info/requires.txt
+[7.209s] writing top-level names to ../../build/core/core.egg-info/top_level.txt
+[7.214s] reading manifest file '../../build/core/core.egg-info/SOURCES.txt'
+[7.217s] writing manifest file '../../build/core/core.egg-info/SOURCES.txt'
+[7.217s] running build
+[7.218s] running build_py
+[7.219s] running install
+[7.220s] running install_lib
+[7.230s] running install_data
+[7.231s] running install_egg_info
+[7.245s] removing '/home/open/work/install/core/lib/python3.10/site-packages/core-0.0.0-py3.10.egg-info' (and everything under it)
+[7.248s] Copying ../../build/core/core.egg-info to /home/open/work/install/core/lib/python3.10/site-packages/core-0.0.0-py3.10.egg-info
+[7.267s] running install_scripts
+[7.375s] Installing core script to /home/open/work/install/core/lib/core
+[7.376s] writing list of installed files to '/home/open/work/build/core/install.log'
+[7.509s] Invoked command in '/home/open/work/src/core' returned '0': PYTHONPATH=/home/open/work/build/core/prefix_override:/home/open/work/install/core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/core build --build-base /home/open/work/build/core/build install --record /home/open/work/build/core/install.log --single-version-externally-managed install_data

@@ -1,0 +1,22 @@
+[1.950s] Invoking command in '/home/open/work/src/camera': PYTHONPATH=/home/open/work/build/camera/prefix_override:/home/open/work/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera build --build-base /home/open/work/build/camera/build install --record /home/open/work/build/camera/install.log --single-version-externally-managed install_data
+[2.237s] running egg_info
+[2.237s] writing ../../build/camera/camera.egg-info/PKG-INFO
+[2.237s] writing dependency_links to ../../build/camera/camera.egg-info/dependency_links.txt
+[2.237s] writing entry points to ../../build/camera/camera.egg-info/entry_points.txt
+[2.237s] writing requirements to ../../build/camera/camera.egg-info/requires.txt
+[2.237s] writing top-level names to ../../build/camera/camera.egg-info/top_level.txt
+[2.239s] reading manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[2.239s] writing manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[2.239s] running build
+[2.239s] running build_py
+[2.239s] running install
+[2.240s] running install_lib
+[2.240s] running install_data
+[2.240s] running install_egg_info
+[2.242s] removing '/home/open/work/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info' (and everything under it)
+[2.242s] Copying ../../build/camera/camera.egg-info to /home/open/work/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info
+[2.243s] running install_scripts
+[2.257s] Installing H65_camera script to /home/open/work/install/camera/lib/camera
+[2.257s] Installing camera script to /home/open/work/install/camera/lib/camera
+[2.257s] writing list of installed files to '/home/open/work/build/camera/install.log'
+[2.277s] Invoked command in '/home/open/work/src/camera' returned '0': PYTHONPATH=/home/open/work/build/camera/prefix_override:/home/open/work/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera build --build-base /home/open/work/build/camera/build install --record /home/open/work/build/camera/install.log --single-version-externally-managed install_data

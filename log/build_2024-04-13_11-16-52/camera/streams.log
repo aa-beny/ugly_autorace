@@ -1,0 +1,41 @@
+[1.991s] Invoking command in '/home/open/work/src/camera': PYTHONPATH=/home/open/work/build/camera/prefix_override:/home/open/work/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera build --build-base /home/open/work/build/camera/build install --record /home/open/work/build/camera/install.log --single-version-externally-managed install_data
+[2.340s] running egg_info
+[2.342s] creating ../../build/camera/camera.egg-info
+[2.343s] writing ../../build/camera/camera.egg-info/PKG-INFO
+[2.346s] writing dependency_links to ../../build/camera/camera.egg-info/dependency_links.txt
+[2.346s] writing entry points to ../../build/camera/camera.egg-info/entry_points.txt
+[2.346s] writing requirements to ../../build/camera/camera.egg-info/requires.txt
+[2.347s] writing top-level names to ../../build/camera/camera.egg-info/top_level.txt
+[2.347s] writing manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[2.351s] reading manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[2.352s] writing manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[2.352s] running build
+[2.352s] running build_py
+[2.352s] creating /home/open/work/build/camera/build
+[2.352s] creating /home/open/work/build/camera/build/lib
+[2.353s] creating /home/open/work/build/camera/build/lib/camera
+[2.353s] copying camera/H65_camera.py -> /home/open/work/build/camera/build/lib/camera
+[2.353s] copying camera/__init__.py -> /home/open/work/build/camera/build/lib/camera
+[2.353s] copying camera/camera.py -> /home/open/work/build/camera/build/lib/camera
+[2.353s] running install
+[2.355s] running install_lib
+[2.355s] creating /home/open/work/install/camera/lib/python3.10/site-packages/camera
+[2.356s] copying /home/open/work/build/camera/build/lib/camera/H65_camera.py -> /home/open/work/install/camera/lib/python3.10/site-packages/camera
+[2.356s] copying /home/open/work/build/camera/build/lib/camera/__init__.py -> /home/open/work/install/camera/lib/python3.10/site-packages/camera
+[2.356s] copying /home/open/work/build/camera/build/lib/camera/camera.py -> /home/open/work/install/camera/lib/python3.10/site-packages/camera
+[2.357s] byte-compiling /home/open/work/install/camera/lib/python3.10/site-packages/camera/H65_camera.py to H65_camera.cpython-310.pyc
+[2.357s] byte-compiling /home/open/work/install/camera/lib/python3.10/site-packages/camera/__init__.py to __init__.cpython-310.pyc
+[2.357s] byte-compiling /home/open/work/install/camera/lib/python3.10/site-packages/camera/camera.py to camera.cpython-310.pyc
+[2.358s] running install_data
+[2.358s] creating /home/open/work/install/camera/share/ament_index
+[2.358s] creating /home/open/work/install/camera/share/ament_index/resource_index
+[2.358s] creating /home/open/work/install/camera/share/ament_index/resource_index/packages
+[2.358s] copying resource/camera -> /home/open/work/install/camera/share/ament_index/resource_index/packages
+[2.358s] copying package.xml -> /home/open/work/install/camera/share/camera
+[2.358s] running install_egg_info
+[2.360s] Copying ../../build/camera/camera.egg-info to /home/open/work/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info
+[2.361s] running install_scripts
+[2.394s] Installing H65_camera script to /home/open/work/install/camera/lib/camera
+[2.395s] Installing camera script to /home/open/work/install/camera/lib/camera
+[2.395s] writing list of installed files to '/home/open/work/build/camera/install.log'
+[2.499s] Invoked command in '/home/open/work/src/camera' returned '0': PYTHONPATH=/home/open/work/build/camera/prefix_override:/home/open/work/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera build --build-base /home/open/work/build/camera/build install --record /home/open/work/build/camera/install.log --single-version-externally-managed install_data

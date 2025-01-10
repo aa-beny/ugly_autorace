@@ -1,0 +1,24 @@
+[2.060s] Invoking command in '/home/open/work/src/red': PYTHONPATH=/home/open/work/build/red/prefix_override:/home/open/work/install/red/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/red build --build-base /home/open/work/build/red/build install --record /home/open/work/build/red/install.log --single-version-externally-managed install_data
+[2.288s] running egg_info
+[2.288s] writing ../../build/red/red.egg-info/PKG-INFO
+[2.288s] writing dependency_links to ../../build/red/red.egg-info/dependency_links.txt
+[2.289s] writing entry points to ../../build/red/red.egg-info/entry_points.txt
+[2.289s] writing requirements to ../../build/red/red.egg-info/requires.txt
+[2.289s] writing top-level names to ../../build/red/red.egg-info/top_level.txt
+[2.291s] reading manifest file '../../build/red/red.egg-info/SOURCES.txt'
+[2.291s] writing manifest file '../../build/red/red.egg-info/SOURCES.txt'
+[2.291s] running build
+[2.291s] running build_py
+[2.291s] copying red/camera_red_green_light.py -> /home/open/work/build/red/build/lib/red
+[2.291s] running install
+[2.292s] running install_lib
+[2.292s] copying /home/open/work/build/red/build/lib/red/camera_red_green_light.py -> /home/open/work/install/red/lib/python3.10/site-packages/red
+[2.293s] byte-compiling /home/open/work/install/red/lib/python3.10/site-packages/red/camera_red_green_light.py to camera_red_green_light.cpython-310.pyc
+[2.293s] running install_data
+[2.294s] running install_egg_info
+[2.295s] removing '/home/open/work/install/red/lib/python3.10/site-packages/red-0.0.0-py3.10.egg-info' (and everything under it)
+[2.295s] Copying ../../build/red/red.egg-info to /home/open/work/install/red/lib/python3.10/site-packages/red-0.0.0-py3.10.egg-info
+[2.296s] running install_scripts
+[2.313s] Installing red script to /home/open/work/install/red/lib/red
+[2.313s] writing list of installed files to '/home/open/work/build/red/install.log'
+[2.335s] Invoked command in '/home/open/work/src/red' returned '0': PYTHONPATH=/home/open/work/build/red/prefix_override:/home/open/work/install/red/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/red build --build-base /home/open/work/build/red/build install --record /home/open/work/build/red/install.log --single-version-externally-managed install_data

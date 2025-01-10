@@ -1,0 +1,24 @@
+[2.947s] Invoking command in '/home/open/work/src/control': PYTHONPATH=/home/open/work/build/control/prefix_override:/home/open/work/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/open/work/build/control/build install --record /home/open/work/build/control/install.log --single-version-externally-managed install_data
+[3.339s] running egg_info
+[3.339s] writing ../../build/control/control.egg-info/PKG-INFO
+[3.339s] writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt
+[3.340s] writing entry points to ../../build/control/control.egg-info/entry_points.txt
+[3.340s] writing requirements to ../../build/control/control.egg-info/requires.txt
+[3.340s] writing top-level names to ../../build/control/control.egg-info/top_level.txt
+[3.342s] reading manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[3.344s] writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[3.344s] running build
+[3.344s] running build_py
+[3.344s] copying control/control_lane.py -> /home/open/work/build/control/build/lib/control
+[3.344s] running install
+[3.344s] running install_lib
+[3.345s] copying /home/open/work/build/control/build/lib/control/control_lane.py -> /home/open/work/install/control/lib/python3.10/site-packages/control
+[3.346s] byte-compiling /home/open/work/install/control/lib/python3.10/site-packages/control/control_lane.py to control_lane.cpython-310.pyc
+[3.347s] running install_data
+[3.347s] running install_egg_info
+[3.350s] removing '/home/open/work/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info' (and everything under it)
+[3.351s] Copying ../../build/control/control.egg-info to /home/open/work/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info
+[3.351s] running install_scripts
+[3.382s] Installing control_lane script to /home/open/work/install/control/lib/control
+[3.382s] writing list of installed files to '/home/open/work/build/control/install.log'
+[3.420s] Invoked command in '/home/open/work/src/control' returned '0': PYTHONPATH=/home/open/work/build/control/prefix_override:/home/open/work/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/open/work/build/control/build install --record /home/open/work/build/control/install.log --single-version-externally-managed install_data

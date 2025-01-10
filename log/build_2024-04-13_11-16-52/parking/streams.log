@@ -1,0 +1,39 @@
+[1.978s] Invoking command in '/home/open/work/src/parking': PYTHONPATH=/home/open/work/build/parking/prefix_override:/home/open/work/install/parking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/parking build --build-base /home/open/work/build/parking/build install --record /home/open/work/build/parking/install.log --single-version-externally-managed install_data
+[2.264s] running egg_info
+[2.265s] creating ../../build/parking/parking.egg-info
+[2.265s] writing ../../build/parking/parking.egg-info/PKG-INFO
+[2.266s] writing dependency_links to ../../build/parking/parking.egg-info/dependency_links.txt
+[2.266s] writing entry points to ../../build/parking/parking.egg-info/entry_points.txt
+[2.266s] writing requirements to ../../build/parking/parking.egg-info/requires.txt
+[2.266s] writing top-level names to ../../build/parking/parking.egg-info/top_level.txt
+[2.267s] writing manifest file '../../build/parking/parking.egg-info/SOURCES.txt'
+[2.269s] reading manifest file '../../build/parking/parking.egg-info/SOURCES.txt'
+[2.270s] writing manifest file '../../build/parking/parking.egg-info/SOURCES.txt'
+[2.270s] running build
+[2.270s] running build_py
+[2.271s] creating /home/open/work/build/parking/build
+[2.271s] creating /home/open/work/build/parking/build/lib
+[2.271s] creating /home/open/work/build/parking/build/lib/parking
+[2.271s] copying parking/__init__.py -> /home/open/work/build/parking/build/lib/parking
+[2.271s] copying parking/parking.py -> /home/open/work/build/parking/build/lib/parking
+[2.272s] running install
+[2.272s] running install_lib
+[2.273s] creating /home/open/work/install/parking/lib/python3.10/site-packages/parking
+[2.273s] copying /home/open/work/build/parking/build/lib/parking/__init__.py -> /home/open/work/install/parking/lib/python3.10/site-packages/parking
+[2.273s] copying /home/open/work/build/parking/build/lib/parking/parking.py -> /home/open/work/install/parking/lib/python3.10/site-packages/parking
+[2.274s] byte-compiling /home/open/work/install/parking/lib/python3.10/site-packages/parking/__init__.py to __init__.cpython-310.pyc
+[2.274s] byte-compiling /home/open/work/install/parking/lib/python3.10/site-packages/parking/parking.py to parking.cpython-310.pyc
+[2.275s] running install_data
+[2.276s] creating /home/open/work/install/parking/share/ament_index
+[2.276s] creating /home/open/work/install/parking/share/ament_index/resource_index
+[2.276s] creating /home/open/work/install/parking/share/ament_index/resource_index/packages
+[2.276s] copying resource/parking -> /home/open/work/install/parking/share/ament_index/resource_index/packages
+[2.276s] copying package.xml -> /home/open/work/install/parking/share/parking
+[2.277s] creating /home/open/work/install/parking/share/parking/launch
+[2.277s] copying launch/parking_launch.py -> /home/open/work/install/parking/share/parking/launch
+[2.277s] running install_egg_info
+[2.280s] Copying ../../build/parking/parking.egg-info to /home/open/work/install/parking/lib/python3.10/site-packages/parking-0.0.0-py3.10.egg-info
+[2.290s] running install_scripts
+[2.309s] Installing parking script to /home/open/work/install/parking/lib/parking
+[2.310s] writing list of installed files to '/home/open/work/build/parking/install.log'
+[2.428s] Invoked command in '/home/open/work/src/parking' returned '0': PYTHONPATH=/home/open/work/build/parking/prefix_override:/home/open/work/install/parking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/parking build --build-base /home/open/work/build/parking/build install --record /home/open/work/build/parking/install.log --single-version-externally-managed install_data

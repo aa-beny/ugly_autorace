@@ -1,0 +1,25 @@
+[4.264s] Invoking command in '/home/open/work/src/camera': PYTHONPATH=/home/open/work/build/camera/prefix_override:/home/open/work/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera build --build-base /home/open/work/build/camera/build install --record /home/open/work/build/camera/install.log --single-version-externally-managed install_data
+[4.731s] running egg_info
+[4.731s] writing ../../build/camera/camera.egg-info/PKG-INFO
+[4.731s] writing dependency_links to ../../build/camera/camera.egg-info/dependency_links.txt
+[4.731s] writing entry points to ../../build/camera/camera.egg-info/entry_points.txt
+[4.731s] writing requirements to ../../build/camera/camera.egg-info/requires.txt
+[4.732s] writing top-level names to ../../build/camera/camera.egg-info/top_level.txt
+[4.732s] reading manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[4.732s] writing manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[4.732s] running build
+[4.732s] running build_py
+[4.732s] copying camera/H65_camera.py -> /home/open/work/build/camera/build/lib/camera
+[4.732s] running install
+[4.732s] running install_lib
+[4.732s] copying /home/open/work/build/camera/build/lib/camera/H65_camera.py -> /home/open/work/install/camera/lib/python3.10/site-packages/camera
+[4.732s] byte-compiling /home/open/work/install/camera/lib/python3.10/site-packages/camera/H65_camera.py to H65_camera.cpython-310.pyc
+[4.733s] running install_data
+[4.733s] running install_egg_info
+[4.748s] removing '/home/open/work/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info' (and everything under it)
+[4.748s] Copying ../../build/camera/camera.egg-info to /home/open/work/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info
+[4.749s] running install_scripts
+[4.799s] Installing H65_camera script to /home/open/work/install/camera/lib/camera
+[4.800s] Installing camera script to /home/open/work/install/camera/lib/camera
+[4.800s] writing list of installed files to '/home/open/work/build/camera/install.log'
+[4.854s] Invoked command in '/home/open/work/src/camera' returned '0': PYTHONPATH=/home/open/work/build/camera/prefix_override:/home/open/work/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera build --build-base /home/open/work/build/camera/build install --record /home/open/work/build/camera/install.log --single-version-externally-managed install_data

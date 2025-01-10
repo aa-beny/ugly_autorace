@@ -1,0 +1,1157 @@
+[0.115s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.115s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x770903568ca0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x770903568760>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x770903568760>>)
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.300s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/open/work'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ros'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['cmake', 'python']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'cmake'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'python'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['python_setup_py']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'python_setup_py'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/control_motor) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/control_motor) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/control_motor) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/control_motor) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/control_motor) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/control_motor) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/control_motor) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/control_motor) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/control_motor) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/control_motor' with type 'ros.ament_python' and name 'control_motor'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk' with type 'ros.ament_cmake' and name 'dynamixel_sdk'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ros'
+[0.323s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk_custom_interfaces' with type 'ros.ament_cmake' and name 'dynamixel_sdk_custom_interfaces'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ros'
+[0.324s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk_examples' with type 'ros.ament_cmake' and name 'dynamixel_sdk_examples'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson) by extension 'ros'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson) by extensions ['cmake', 'python']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson) by extension 'cmake'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson) by extension 'python'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson) by extensions ['python_setup_py']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson) by extension 'python_setup_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version) by extension 'ros'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version) by extensions ['cmake', 'python']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version) by extension 'python'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version) by extensions ['python_setup_py']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version/scripts) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version/scripts) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version/scripts) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version/scripts) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version/scripts) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version/scripts) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version/scripts) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version/scripts) by extension 'ros'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version/scripts) by extensions ['cmake', 'python']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version/scripts) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version/scripts) by extension 'python'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version/scripts) by extensions ['python_setup_py']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/check_jetson_version/scripts) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose) by extension 'ros'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose) by extensions ['cmake', 'python']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose) by extension 'cmake'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose) by extension 'python'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose) by extensions ['python_setup_py']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose) by extension 'python_setup_py'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config) by extension 'ros'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config) by extensions ['cmake', 'python']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config) by extension 'cmake'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config) by extension 'python'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config) by extensions ['python_setup_py']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config) by extension 'python_setup_py'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/pip) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/pip) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/pip) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/pip) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/pip) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/pip) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/pip) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/pip) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/pip) by extension 'ros'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/pip) by extensions ['cmake', 'python']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/pip) by extension 'cmake'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/pip) by extension 'python'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/pip) by extensions ['python_setup_py']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/pip) by extension 'python_setup_py'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell) by extension 'ros'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell) by extensions ['cmake', 'python']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell) by extension 'cmake'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell) by extension 'python'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell) by extensions ['python_setup_py']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell) by extension 'python_setup_py'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/terminator) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/terminator) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/terminator) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/terminator) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/terminator) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/terminator) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/terminator) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/terminator) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/terminator) by extension 'ros'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/terminator) by extensions ['cmake', 'python']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/terminator) by extension 'cmake'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/terminator) by extension 'python'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/terminator) by extensions ['python_setup_py']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/terminator) by extension 'python_setup_py'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/tmux) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/tmux) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/tmux) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/tmux) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/tmux) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/tmux) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/tmux) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/tmux) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/tmux) by extension 'ros'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/tmux) by extensions ['cmake', 'python']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/tmux) by extension 'cmake'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/tmux) by extension 'python'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/tmux) by extensions ['python_setup_py']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/compose/config/shell/tmux) by extension 'python_setup_py'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config) by extension 'ros'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config) by extensions ['cmake', 'python']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config) by extension 'cmake'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config) by extension 'python'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config) by extensions ['python_setup_py']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config) by extension 'python_setup_py'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/pip) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/pip) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/pip) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/pip) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/pip) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/pip) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/pip) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/pip) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/pip) by extension 'ros'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/pip) by extensions ['cmake', 'python']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/pip) by extension 'cmake'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/pip) by extension 'python'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/pip) by extensions ['python_setup_py']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/pip) by extension 'python_setup_py'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell) by extension 'ros'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell) by extensions ['cmake', 'python']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell) by extension 'cmake'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell) by extension 'python'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell) by extensions ['python_setup_py']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell) by extension 'python_setup_py'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/terminator) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/terminator) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/terminator) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/terminator) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/terminator) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/terminator) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/terminator) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/terminator) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/terminator) by extension 'ros'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/terminator) by extensions ['cmake', 'python']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/terminator) by extension 'cmake'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/terminator) by extension 'python'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/terminator) by extensions ['python_setup_py']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/terminator) by extension 'python_setup_py'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/tmux) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/tmux) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/tmux) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/tmux) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/tmux) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/tmux) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/tmux) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/tmux) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/tmux) by extension 'ros'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/tmux) by extensions ['cmake', 'python']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/tmux) by extension 'cmake'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/tmux) by extension 'python'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/tmux) by extensions ['python_setup_py']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_jetson/config/shell/tmux) by extension 'python_setup_py'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc) by extension 'ros'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc) by extensions ['cmake', 'python']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc) by extension 'cmake'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc) by extension 'python'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc) by extensions ['python_setup_py']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc) by extension 'python_setup_py'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose) by extension 'ros'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose) by extensions ['cmake', 'python']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose) by extension 'cmake'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose) by extension 'python'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose) by extensions ['python_setup_py']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose) by extension 'python_setup_py'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config) by extension 'ros'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config) by extensions ['cmake', 'python']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config) by extension 'cmake'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config) by extension 'python'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config) by extensions ['python_setup_py']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config) by extension 'python_setup_py'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/pip) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/pip) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/pip) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/pip) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/pip) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/pip) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/pip) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/pip) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/pip) by extension 'ros'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/pip) by extensions ['cmake', 'python']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/pip) by extension 'cmake'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/pip) by extension 'python'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/pip) by extensions ['python_setup_py']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/pip) by extension 'python_setup_py'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell) by extension 'ros'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell) by extensions ['cmake', 'python']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell) by extension 'cmake'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell) by extension 'python'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell) by extensions ['python_setup_py']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell) by extension 'python_setup_py'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/terminator) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/terminator) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/terminator) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/terminator) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/terminator) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/terminator) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/terminator) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/terminator) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/terminator) by extension 'ros'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/terminator) by extensions ['cmake', 'python']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/terminator) by extension 'cmake'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/terminator) by extension 'python'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/terminator) by extensions ['python_setup_py']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/terminator) by extension 'python_setup_py'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/tmux) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/tmux) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/tmux) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/tmux) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/tmux) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/tmux) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/tmux) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/tmux) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/tmux) by extension 'ros'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/tmux) by extensions ['cmake', 'python']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/tmux) by extension 'cmake'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/tmux) by extension 'python'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/tmux) by extensions ['python_setup_py']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/compose/config/shell/tmux) by extension 'python_setup_py'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config) by extension 'ros'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config) by extensions ['cmake', 'python']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config) by extension 'cmake'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config) by extension 'python'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config) by extensions ['python_setup_py']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config) by extension 'python_setup_py'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/pip) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/pip) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/pip) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/pip) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/pip) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/pip) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/pip) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/pip) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/pip) by extension 'ros'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/pip) by extensions ['cmake', 'python']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/pip) by extension 'cmake'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/pip) by extension 'python'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/pip) by extensions ['python_setup_py']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/pip) by extension 'python_setup_py'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell) by extension 'ros'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell) by extensions ['cmake', 'python']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell) by extension 'cmake'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell) by extension 'python'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell) by extensions ['python_setup_py']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell) by extension 'python_setup_py'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/terminator) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/terminator) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/terminator) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/terminator) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/terminator) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/terminator) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/terminator) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/terminator) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/terminator) by extension 'ros'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/terminator) by extensions ['cmake', 'python']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/terminator) by extension 'cmake'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/terminator) by extension 'python'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/terminator) by extensions ['python_setup_py']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/terminator) by extension 'python_setup_py'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/tmux) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/tmux) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/tmux) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/tmux) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/tmux) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/tmux) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/tmux) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/tmux) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/tmux) by extension 'ros'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/tmux) by extensions ['cmake', 'python']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/tmux) by extension 'cmake'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/tmux) by extension 'python'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/tmux) by extensions ['python_setup_py']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/autorace_docker/autorace_docker_pc/config/shell/tmux) by extension 'python_setup_py'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'ros'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera' with type 'ros.ament_python' and name 'camera'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ros'
+[0.343s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control' with type 'ros.ament_python' and name 'control'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/core) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'src/core' with type 'ros.ament_python' and name 'core'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect) by extension 'ros'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect) by extensions ['cmake', 'python']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect) by extension 'cmake'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect) by extension 'python'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect) by extensions ['python_setup_py']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect) by extension 'python_setup_py'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect/detect_lane) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect/detect_lane) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect/detect_lane) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect/detect_lane) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect/detect_lane) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect/detect_lane) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect/detect_lane) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect/detect_lane) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect/detect_lane) by extension 'ros'
+[0.346s] DEBUG:colcon.colcon_core.package_identification:Package 'src/detect/detect_lane' with type 'ros.ament_python' and name 'detect_lane'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect/object_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect/object_detection) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect/object_detection) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect/object_detection) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect/object_detection) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect/object_detection) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect/object_detection) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect/object_detection) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect/object_detection) by extension 'ros'
+[0.347s] DEBUG:colcon.colcon_core.package_identification:Package 'src/detect/object_detection' with type 'ros.ament_python' and name 'object_detection'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/lider_sub) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/lider_sub) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/lider_sub) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/lider_sub) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/lider_sub) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/lider_sub) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/lider_sub) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/lider_sub) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/lider_sub) by extension 'ros'
+[0.348s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lider_sub' with type 'ros.ament_python' and name 'lider_sub'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/parking) by extension 'ros'
+[0.349s] DEBUG:colcon.colcon_core.package_identification:Package 'src/parking' with type 'ros.ament_python' and name 'parking'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[0.350s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.390s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/open/work/install
+[0.391s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_target' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.434s] DEBUG:colcon.colcon_core.verb:Building package 'camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/open/work/build/camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/open/work/install/camera', 'merge_install': False, 'path': '/home/open/work/src/camera', 'symlink_install': False, 'test_result_base': None}
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_target' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_clean_first' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_force_configure' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'ament_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.435s] DEBUG:colcon.colcon_core.verb:Building package 'control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/open/work/build/control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/open/work/install/control', 'merge_install': False, 'path': '/home/open/work/src/control', 'symlink_install': False, 'test_result_base': None}
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'control_motor' build argument 'cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'control_motor' build argument 'cmake_target' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'control_motor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'control_motor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'control_motor' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'control_motor' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'control_motor' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'control_motor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'control_motor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'control_motor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/open/work/build/control_motor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/open/work/install/control_motor', 'merge_install': False, 'path': '/home/open/work/src/DynamixelSDK/control_motor', 'symlink_install': False, 'test_result_base': None}
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/open/work/build/core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/open/work/install/core', 'merge_install': False, 'path': '/home/open/work/src/core', 'symlink_install': False, 'test_result_base': None}
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'detect_lane' build argument 'cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'detect_lane' build argument 'cmake_target' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'detect_lane' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'detect_lane' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'detect_lane' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'detect_lane' build argument 'cmake_force_configure' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'detect_lane' build argument 'ament_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'detect_lane' build argument 'catkin_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'detect_lane' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'detect_lane' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/open/work/build/detect_lane', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/open/work/install/detect_lane', 'merge_install': False, 'path': '/home/open/work/src/detect/detect_lane', 'symlink_install': False, 'test_result_base': None}
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/open/work/build/dynamixel_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/open/work/install/dynamixel_sdk', 'merge_install': False, 'path': '/home/open/work/src/DynamixelSDK/dynamixel_sdk', 'symlink_install': False, 'test_result_base': None}
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.438s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk_custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/open/work/build/dynamixel_sdk_custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/open/work/install/dynamixel_sdk_custom_interfaces', 'merge_install': False, 'path': '/home/open/work/src/DynamixelSDK/dynamixel_sdk_custom_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'lider_sub' build argument 'cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'lider_sub' build argument 'cmake_target' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'lider_sub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'lider_sub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'lider_sub' build argument 'cmake_clean_first' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'lider_sub' build argument 'cmake_force_configure' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'lider_sub' build argument 'ament_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'lider_sub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'lider_sub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.438s] DEBUG:colcon.colcon_core.verb:Building package 'lider_sub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/open/work/build/lider_sub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/open/work/install/lider_sub', 'merge_install': False, 'path': '/home/open/work/src/lider_sub', 'symlink_install': False, 'test_result_base': None}
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_target' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.439s] DEBUG:colcon.colcon_core.verb:Building package 'object_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/open/work/build/object_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/open/work/install/object_detection', 'merge_install': False, 'path': '/home/open/work/src/detect/object_detection', 'symlink_install': False, 'test_result_base': None}
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'parking' build argument 'cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'parking' build argument 'cmake_target' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'parking' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'parking' build argument 'cmake_clean_cache' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'parking' build argument 'cmake_clean_first' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'parking' build argument 'cmake_force_configure' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'parking' build argument 'ament_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'parking' build argument 'catkin_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'parking' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.439s] DEBUG:colcon.colcon_core.verb:Building package 'parking' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/open/work/build/parking', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/open/work/install/parking', 'merge_install': False, 'path': '/home/open/work/src/parking', 'symlink_install': False, 'test_result_base': None}
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.440s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/open/work/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/open/work/install/rplidar_ros', 'merge_install': False, 'path': '/home/open/work/src/rplidar_ros', 'symlink_install': False, 'test_result_base': None}
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_target' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.440s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/open/work/build/dynamixel_sdk_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/open/work/install/dynamixel_sdk_examples', 'merge_install': False, 'path': '/home/open/work/src/DynamixelSDK/dynamixel_sdk_examples', 'symlink_install': False, 'test_result_base': None}
+[0.441s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.442s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.442s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/open/work/src/DynamixelSDK/dynamixel_sdk' with build type 'ament_cmake'
+[0.442s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/open/work/src/DynamixelSDK/dynamixel_sdk'
+[0.445s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.445s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.445s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.449s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/open/work/src/DynamixelSDK/dynamixel_sdk_custom_interfaces' with build type 'ament_cmake'
+[0.449s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/open/work/src/DynamixelSDK/dynamixel_sdk_custom_interfaces'
+[0.449s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.450s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.453s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/open/work/src/camera' with build type 'ament_python'
+[0.453s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera', 'ament_prefix_path')
+[0.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/camera/share/camera/hook/ament_prefix_path.ps1'
+[0.454s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/camera/share/camera/hook/ament_prefix_path.dsv'
+[0.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/camera/share/camera/hook/ament_prefix_path.sh'
+[0.456s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.456s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.460s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/open/work/src/control' with build type 'ament_python'
+[0.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('control', 'ament_prefix_path')
+[0.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/control/share/control/hook/ament_prefix_path.ps1'
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/control/share/control/hook/ament_prefix_path.dsv'
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/control/share/control/hook/ament_prefix_path.sh'
+[0.463s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.463s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.466s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/open/work/src/DynamixelSDK/control_motor' with build type 'ament_python'
+[0.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_motor', 'ament_prefix_path')
+[0.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/control_motor/share/control_motor/hook/ament_prefix_path.ps1'
+[0.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/control_motor/share/control_motor/hook/ament_prefix_path.dsv'
+[0.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/control_motor/share/control_motor/hook/ament_prefix_path.sh'
+[0.468s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.468s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.472s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/open/work/src/core' with build type 'ament_python'
+[0.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('core', 'ament_prefix_path')
+[0.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/core/share/core/hook/ament_prefix_path.ps1'
+[0.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/core/share/core/hook/ament_prefix_path.dsv'
+[0.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/core/share/core/hook/ament_prefix_path.sh'
+[0.474s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.474s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.477s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/open/work/src/detect/detect_lane' with build type 'ament_python'
+[0.477s] Level 1:colcon.colcon_core.shell:create_environment_hook('detect_lane', 'ament_prefix_path')
+[0.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/detect_lane/share/detect_lane/hook/ament_prefix_path.ps1'
+[0.478s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/detect_lane/share/detect_lane/hook/ament_prefix_path.dsv'
+[0.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/detect_lane/share/detect_lane/hook/ament_prefix_path.sh'
+[0.479s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.479s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.482s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/open/work/src/lider_sub' with build type 'ament_python'
+[0.483s] Level 1:colcon.colcon_core.shell:create_environment_hook('lider_sub', 'ament_prefix_path')
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/lider_sub/share/lider_sub/hook/ament_prefix_path.ps1'
+[0.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/lider_sub/share/lider_sub/hook/ament_prefix_path.dsv'
+[0.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/lider_sub/share/lider_sub/hook/ament_prefix_path.sh'
+[0.484s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.484s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.488s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/open/work/src/detect/object_detection' with build type 'ament_python'
+[0.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detection', 'ament_prefix_path')
+[0.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/object_detection/share/object_detection/hook/ament_prefix_path.ps1'
+[0.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/object_detection/share/object_detection/hook/ament_prefix_path.dsv'
+[0.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/object_detection/share/object_detection/hook/ament_prefix_path.sh'
+[0.490s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.490s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.494s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/open/work/src/parking' with build type 'ament_python'
+[0.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('parking', 'ament_prefix_path')
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/parking/share/parking/hook/ament_prefix_path.ps1'
+[0.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/parking/share/parking/hook/ament_prefix_path.dsv'
+[0.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/parking/share/parking/hook/ament_prefix_path.sh'
+[0.496s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.496s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.501s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/open/work/src/rplidar_ros' with build type 'ament_cmake'
+[0.501s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/open/work/src/rplidar_ros'
+[0.501s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.502s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/open/work/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/open/work/install/parking:/home/open/work/install/object_detection:/home/open/work/install/lider_sub:/home/open/work/install/detect_lane:/home/open/work/install/core:/home/open/work/install/control_motor:/home/open/work/install/control:/home/open/work/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/open/work/build/dynamixel_sdk -- -j16 -l16
+[0.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/open/work/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/open/work/install/parking:/home/open/work/install/object_detection:/home/open/work/install/lider_sub:/home/open/work/install/detect_lane:/home/open/work/install/core:/home/open/work/install/control_motor:/home/open/work/install/control:/home/open/work/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/open/work/build/dynamixel_sdk_custom_interfaces -- -j16 -l16
+[0.971s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/open/work/src/camera'
+[0.972s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.972s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.478s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/open/work/src/control'
+[1.479s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.479s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.929s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/open/work/src/DynamixelSDK/control_motor'
+[1.929s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.929s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.362s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/open/work/src/core'
+[2.363s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.363s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.818s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/open/work/src/detect/detect_lane'
+[2.818s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.818s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.179s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/open/work/src/lider_sub'
+[3.179s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.179s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.605s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/open/work/src/detect/object_detection'
+[3.605s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.606s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.099s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/open/work/src/parking'
+[4.099s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.099s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.116s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/open/work/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/open/work/install/parking:/home/open/work/install/object_detection:/home/open/work/install/lider_sub:/home/open/work/install/detect_lane:/home/open/work/install/core:/home/open/work/install/control_motor:/home/open/work/install/control:/home/open/work/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/open/work/build/rplidar_ros -- -j16 -l16
+[4.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/open/work/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/open/work/install/parking:/home/open/work/install/object_detection:/home/open/work/install/lider_sub:/home/open/work/install/detect_lane:/home/open/work/install/core:/home/open/work/install/control_motor:/home/open/work/install/control:/home/open/work/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/open/work/build/dynamixel_sdk -- -j16 -l16
+[4.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/open/work/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/open/work/install/parking:/home/open/work/install/object_detection:/home/open/work/install/lider_sub:/home/open/work/install/detect_lane:/home/open/work/install/core:/home/open/work/install/control_motor:/home/open/work/install/control:/home/open/work/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/open/work/build/dynamixel_sdk_custom_interfaces -- -j16 -l16
+[4.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/open/work/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/open/work/install/parking:/home/open/work/install/object_detection:/home/open/work/install/lider_sub:/home/open/work/install/detect_lane:/home/open/work/install/core:/home/open/work/install/control_motor:/home/open/work/install/control:/home/open/work/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/open/work/build/rplidar_ros -- -j16 -l16
+[4.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/open/work/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/open/work/install/parking:/home/open/work/install/object_detection:/home/open/work/install/lider_sub:/home/open/work/install/detect_lane:/home/open/work/install/core:/home/open/work/install/control_motor:/home/open/work/install/control:/home/open/work/install/camera:/opt/ros/humble /usr/bin/cmake --install /home/open/work/build/dynamixel_sdk
+[4.505s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[4.509s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk' for CMake module files
+[4.510s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk' for CMake config files
+[4.510s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[4.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[4.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[4.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[4.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/open/work/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/open/work/install/parking:/home/open/work/install/object_detection:/home/open/work/install/lider_sub:/home/open/work/install/detect_lane:/home/open/work/install/core:/home/open/work/install/control_motor:/home/open/work/install/control:/home/open/work/install/camera:/opt/ros/humble /usr/bin/cmake --install /home/open/work/build/dynamixel_sdk
+[4.514s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk/lib'
+[4.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[4.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[4.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[4.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[4.516s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk/bin'
+[4.517s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[4.517s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk/lib/python3.10/site-packages'
+[4.517s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk/bin'
+[4.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[4.519s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/open/work/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[4.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[4.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[4.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[4.524s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/open/work/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[4.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/open/work/src/control': PYTHONPATH=/home/open/work/build/control/prefix_override:/home/open/work/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/open/work/build/control/build install --record /home/open/work/build/control/install.log --single-version-externally-managed install_data
+[4.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/open/work/src/core': PYTHONPATH=/home/open/work/build/core/prefix_override:/home/open/work/install/core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/core build --build-base /home/open/work/build/core/build install --record /home/open/work/build/core/install.log --single-version-externally-managed install_data
+[4.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/open/work/src/camera': PYTHONPATH=/home/open/work/build/camera/prefix_override:/home/open/work/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera build --build-base /home/open/work/build/camera/build install --record /home/open/work/build/camera/install.log --single-version-externally-managed install_data
+[4.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/open/work/src/detect/object_detection': PYTHONPATH=/home/open/work/build/object_detection/prefix_override:/home/open/work/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/object_detection build --build-base /home/open/work/build/object_detection/build install --record /home/open/work/build/object_detection/install.log --single-version-externally-managed install_data
+[4.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/open/work/src/detect/detect_lane': PYTHONPATH=/home/open/work/build/detect_lane/prefix_override:/home/open/work/install/detect_lane/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/detect_lane build --build-base /home/open/work/build/detect_lane/build install --record /home/open/work/build/detect_lane/install.log --single-version-externally-managed install_data
+[4.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/open/work/src/parking': PYTHONPATH=/home/open/work/build/parking/prefix_override:/home/open/work/install/parking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/parking build --build-base /home/open/work/build/parking/build install --record /home/open/work/build/parking/install.log --single-version-externally-managed install_data
+[4.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/open/work/src/DynamixelSDK/control_motor': PYTHONPATH=/home/open/work/build/control_motor/prefix_override:/home/open/work/install/control_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/control_motor build --build-base /home/open/work/build/control_motor/build install --record /home/open/work/build/control_motor/install.log --single-version-externally-managed install_data
+[4.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/open/work/src/lider_sub': PYTHONPATH=/home/open/work/build/lider_sub/prefix_override:/home/open/work/install/lider_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lider_sub build --build-base /home/open/work/build/lider_sub/build install --record /home/open/work/build/lider_sub/install.log --single-version-externally-managed install_data
+[4.952s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[4.952s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk' for CMake module files
+[4.953s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk' for CMake config files
+[4.953s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[4.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[4.955s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[4.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[4.957s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk/lib'
+[4.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[4.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[4.958s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[4.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[4.958s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk/bin'
+[4.959s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[4.959s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk/lib/python3.10/site-packages'
+[4.959s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk/bin'
+[4.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[4.960s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/open/work/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[4.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[4.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[4.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[4.964s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/open/work/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[5.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/open/work/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/open/work/install/parking:/home/open/work/install/object_detection:/home/open/work/install/lider_sub:/home/open/work/install/detect_lane:/home/open/work/install/core:/home/open/work/install/control_motor:/home/open/work/install/control:/home/open/work/install/camera:/opt/ros/humble /usr/bin/cmake --install /home/open/work/build/rplidar_ros
+[5.086s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[5.087s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/rplidar_ros' for CMake module files
+[5.087s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/rplidar_ros' for CMake config files
+[5.088s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[5.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[5.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[5.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[5.090s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/rplidar_ros/lib'
+[5.090s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/rplidar_ros/bin'
+[5.090s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[5.090s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/rplidar_ros/lib/python3.10/site-packages'
+[5.090s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/rplidar_ros/bin'
+[5.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[5.091s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/open/work/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[5.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/rplidar_ros/share/rplidar_ros/package.sh'
+[5.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/rplidar_ros/share/rplidar_ros/package.bash'
+[5.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[5.093s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/open/work/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[5.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/open/work/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/open/work/install/parking:/home/open/work/install/object_detection:/home/open/work/install/lider_sub:/home/open/work/install/detect_lane:/home/open/work/install/core:/home/open/work/install/control_motor:/home/open/work/install/control:/home/open/work/install/camera:/opt/ros/humble /usr/bin/cmake --install /home/open/work/build/rplidar_ros
+[5.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/open/work/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/open/work/install/parking:/home/open/work/install/object_detection:/home/open/work/install/lider_sub:/home/open/work/install/detect_lane:/home/open/work/install/core:/home/open/work/install/control_motor:/home/open/work/install/control:/home/open/work/install/camera:/opt/ros/humble /usr/bin/cmake --install /home/open/work/build/dynamixel_sdk_custom_interfaces
+[5.271s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/control' for CMake module files
+[5.271s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/control' for CMake config files
+[5.272s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/control/lib'
+[5.273s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/control/bin'
+[5.273s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/control/lib/pkgconfig/control.pc'
+[5.273s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/control/lib/python3.10/site-packages'
+[5.273s] Level 1:colcon.colcon_core.shell:create_environment_hook('control', 'pythonpath')
+[5.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/control/share/control/hook/pythonpath.ps1'
+[5.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/control/share/control/hook/pythonpath.dsv'
+[5.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/control/share/control/hook/pythonpath.sh'
+[5.276s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/control/bin'
+[5.276s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control)
+[5.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/control/share/control/package.ps1'
+[5.277s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/open/work/install/control/share/control/package.dsv'
+[5.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/control/share/control/package.sh'
+[5.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/control/share/control/package.bash'
+[5.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/control/share/control/package.zsh'
+[5.279s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/open/work/install/control/share/colcon-core/packages/control)
+[5.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/open/work/src/control' returned '0': PYTHONPATH=/home/open/work/build/control/prefix_override:/home/open/work/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/open/work/build/control/build install --record /home/open/work/build/control/install.log --single-version-externally-managed install_data
+[5.299s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/camera' for CMake module files
+[5.300s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/camera' for CMake config files
+[5.301s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/camera/lib'
+[5.301s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/camera/bin'
+[5.301s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/camera/lib/pkgconfig/camera.pc'
+[5.301s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/camera/lib/python3.10/site-packages'
+[5.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera', 'pythonpath')
+[5.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/camera/share/camera/hook/pythonpath.ps1'
+[5.303s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/camera/share/camera/hook/pythonpath.dsv'
+[5.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/camera/share/camera/hook/pythonpath.sh'
+[5.304s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/camera/bin'
+[5.304s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera)
+[5.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/camera/share/camera/package.ps1'
+[5.305s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/open/work/install/camera/share/camera/package.dsv'
+[5.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/camera/share/camera/package.sh'
+[5.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/camera/share/camera/package.bash'
+[5.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/camera/share/camera/package.zsh'
+[5.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/open/work/src/camera' returned '0': PYTHONPATH=/home/open/work/build/camera/prefix_override:/home/open/work/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera build --build-base /home/open/work/build/camera/build install --record /home/open/work/build/camera/install.log --single-version-externally-managed install_data
+[5.316s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/open/work/install/camera/share/colcon-core/packages/camera)
+[5.349s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_custom_interfaces)
+[5.350s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_custom_interfaces' for CMake module files
+[5.351s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_custom_interfaces' for CMake config files
+[5.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'cmake_prefix_path')
+[5.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.ps1'
+[5.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.dsv'
+[5.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.sh'
+[5.354s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_custom_interfaces/lib'
+[5.355s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'ld_library_path_lib')
+[5.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.ps1'
+[5.356s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.dsv'
+[5.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.sh'
+[5.357s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_custom_interfaces/bin'
+[5.357s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_custom_interfaces/lib/pkgconfig/dynamixel_sdk_custom_interfaces.pc'
+[5.357s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_custom_interfaces/lib/python3.10/site-packages'
+[5.360s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_custom_interfaces/bin'
+[5.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.ps1'
+[5.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/open/work/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/open/work/install/parking:/home/open/work/install/object_detection:/home/open/work/install/lider_sub:/home/open/work/install/detect_lane:/home/open/work/install/core:/home/open/work/install/control_motor:/home/open/work/install/control:/home/open/work/install/camera:/opt/ros/humble /usr/bin/cmake --install /home/open/work/build/dynamixel_sdk_custom_interfaces
+[5.362s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/open/work/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv'
+[5.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.sh'
+[5.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.bash'
+[5.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.zsh'
+[5.365s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/open/work/install/dynamixel_sdk_custom_interfaces/share/colcon-core/packages/dynamixel_sdk_custom_interfaces)
+[5.369s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/detect_lane' for CMake module files
+[5.370s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/detect_lane' for CMake config files
+[5.371s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/detect_lane/lib'
+[5.372s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/detect_lane/bin'
+[5.372s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/detect_lane/lib/pkgconfig/detect_lane.pc'
+[5.372s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/detect_lane/lib/python3.10/site-packages'
+[5.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('detect_lane', 'pythonpath')
+[5.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/detect_lane/share/detect_lane/hook/pythonpath.ps1'
+[5.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/detect_lane/share/detect_lane/hook/pythonpath.dsv'
+[5.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/detect_lane/share/detect_lane/hook/pythonpath.sh'
+[5.375s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/detect_lane/bin'
+[5.375s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(detect_lane)
+[5.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/detect_lane/share/detect_lane/package.ps1'
+[5.376s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/open/work/install/detect_lane/share/detect_lane/package.dsv'
+[5.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/open/work/src/detect/detect_lane' returned '0': PYTHONPATH=/home/open/work/build/detect_lane/prefix_override:/home/open/work/install/detect_lane/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/detect_lane build --build-base /home/open/work/build/detect_lane/build install --record /home/open/work/build/detect_lane/install.log --single-version-externally-managed install_data
+[5.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/detect_lane/share/detect_lane/package.sh'
+[5.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/detect_lane/share/detect_lane/package.bash'
+[5.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/detect_lane/share/detect_lane/package.zsh'
+[5.379s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/open/work/install/detect_lane/share/colcon-core/packages/detect_lane)
+[5.386s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/core' for CMake module files
+[5.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/open/work/src/core' returned '0': PYTHONPATH=/home/open/work/build/core/prefix_override:/home/open/work/install/core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/core build --build-base /home/open/work/build/core/build install --record /home/open/work/build/core/install.log --single-version-externally-managed install_data
+[5.389s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/core' for CMake config files
+[5.390s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/core/lib'
+[5.390s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/core/bin'
+[5.390s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/core/lib/pkgconfig/core.pc'
+[5.391s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/core/lib/python3.10/site-packages'
+[5.391s] Level 1:colcon.colcon_core.shell:create_environment_hook('core', 'pythonpath')
+[5.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/core/share/core/hook/pythonpath.ps1'
+[5.392s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/core/share/core/hook/pythonpath.dsv'
+[5.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/core/share/core/hook/pythonpath.sh'
+[5.394s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/core/bin'
+[5.394s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(core)
+[5.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/core/share/core/package.ps1'
+[5.396s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/open/work/install/core/share/core/package.dsv'
+[5.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/core/share/core/package.sh'
+[5.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/core/share/core/package.bash'
+[5.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/core/share/core/package.zsh'
+[5.405s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/open/work/install/core/share/colcon-core/packages/core)
+[5.411s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/object_detection' for CMake module files
+[5.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/open/work/src/detect/object_detection' returned '0': PYTHONPATH=/home/open/work/build/object_detection/prefix_override:/home/open/work/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/object_detection build --build-base /home/open/work/build/object_detection/build install --record /home/open/work/build/object_detection/install.log --single-version-externally-managed install_data
+[5.413s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/object_detection' for CMake config files
+[5.415s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/object_detection/lib'
+[5.415s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/object_detection/bin'
+[5.415s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/object_detection/lib/pkgconfig/object_detection.pc'
+[5.415s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/object_detection/lib/python3.10/site-packages'
+[5.415s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detection', 'pythonpath')
+[5.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/object_detection/share/object_detection/hook/pythonpath.ps1'
+[5.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/object_detection/share/object_detection/hook/pythonpath.dsv'
+[5.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/object_detection/share/object_detection/hook/pythonpath.sh'
+[5.417s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/object_detection/bin'
+[5.417s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(object_detection)
+[5.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/object_detection/share/object_detection/package.ps1'
+[5.419s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/open/work/install/object_detection/share/object_detection/package.dsv'
+[5.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/object_detection/share/object_detection/package.sh'
+[5.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/object_detection/share/object_detection/package.bash'
+[5.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/object_detection/share/object_detection/package.zsh'
+[5.421s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/open/work/install/object_detection/share/colcon-core/packages/object_detection)
+[5.445s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[5.445s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/rplidar_ros' for CMake module files
+[5.447s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/rplidar_ros' for CMake config files
+[5.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[5.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[5.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[5.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[5.451s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/rplidar_ros/lib'
+[5.451s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/rplidar_ros/bin'
+[5.451s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[5.451s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/rplidar_ros/lib/python3.10/site-packages'
+[5.452s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/rplidar_ros/bin'
+[5.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[5.453s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/open/work/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[5.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/rplidar_ros/share/rplidar_ros/package.sh'
+[5.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/rplidar_ros/share/rplidar_ros/package.bash'
+[5.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[5.456s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/open/work/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[5.488s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/control_motor' for CMake module files
+[5.488s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/control_motor' for CMake config files
+[5.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/open/work/src/DynamixelSDK/control_motor' returned '0': PYTHONPATH=/home/open/work/build/control_motor/prefix_override:/home/open/work/install/control_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/control_motor build --build-base /home/open/work/build/control_motor/build install --record /home/open/work/build/control_motor/install.log --single-version-externally-managed install_data
+[5.490s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/control_motor/lib'
+[5.491s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/control_motor/bin'
+[5.491s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/control_motor/lib/pkgconfig/control_motor.pc'
+[5.491s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/control_motor/lib/python3.10/site-packages'
+[5.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_motor', 'pythonpath')
+[5.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/control_motor/share/control_motor/hook/pythonpath.ps1'
+[5.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/control_motor/share/control_motor/hook/pythonpath.dsv'
+[5.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/control_motor/share/control_motor/hook/pythonpath.sh'
+[5.494s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/control_motor/bin'
+[5.494s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_motor)
+[5.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/control_motor/share/control_motor/package.ps1'
+[5.495s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/open/work/install/control_motor/share/control_motor/package.dsv'
+[5.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/control_motor/share/control_motor/package.sh'
+[5.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/control_motor/share/control_motor/package.bash'
+[5.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/control_motor/share/control_motor/package.zsh'
+[5.498s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/open/work/install/control_motor/share/colcon-core/packages/control_motor)
+[5.505s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/parking' for CMake module files
+[5.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/open/work/src/parking' returned '0': PYTHONPATH=/home/open/work/build/parking/prefix_override:/home/open/work/install/parking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/parking build --build-base /home/open/work/build/parking/build install --record /home/open/work/build/parking/install.log --single-version-externally-managed install_data
+[5.507s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/parking' for CMake config files
+[5.508s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/parking/lib'
+[5.508s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/parking/bin'
+[5.511s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/parking/lib/pkgconfig/parking.pc'
+[5.512s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/parking/lib/python3.10/site-packages'
+[5.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('parking', 'pythonpath')
+[5.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/parking/share/parking/hook/pythonpath.ps1'
+[5.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/parking/share/parking/hook/pythonpath.dsv'
+[5.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/parking/share/parking/hook/pythonpath.sh'
+[5.518s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/parking/bin'
+[5.518s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(parking)
+[5.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/parking/share/parking/package.ps1'
+[5.521s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/open/work/install/parking/share/parking/package.dsv'
+[5.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/parking/share/parking/package.sh'
+[5.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/parking/share/parking/package.bash'
+[5.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/parking/share/parking/package.zsh'
+[5.524s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/open/work/install/parking/share/colcon-core/packages/parking)
+[5.551s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/lider_sub' for CMake module files
+[5.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/open/work/src/lider_sub' returned '0': PYTHONPATH=/home/open/work/build/lider_sub/prefix_override:/home/open/work/install/lider_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lider_sub build --build-base /home/open/work/build/lider_sub/build install --record /home/open/work/build/lider_sub/install.log --single-version-externally-managed install_data
+[5.553s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/lider_sub' for CMake config files
+[5.554s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/lider_sub/lib'
+[5.554s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/lider_sub/bin'
+[5.554s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/lider_sub/lib/pkgconfig/lider_sub.pc'
+[5.554s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/lider_sub/lib/python3.10/site-packages'
+[5.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('lider_sub', 'pythonpath')
+[5.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/lider_sub/share/lider_sub/hook/pythonpath.ps1'
+[5.556s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/lider_sub/share/lider_sub/hook/pythonpath.dsv'
+[5.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/lider_sub/share/lider_sub/hook/pythonpath.sh'
+[5.557s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/lider_sub/bin'
+[5.557s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lider_sub)
+[5.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/lider_sub/share/lider_sub/package.ps1'
+[5.558s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/open/work/install/lider_sub/share/lider_sub/package.dsv'
+[5.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/lider_sub/share/lider_sub/package.sh'
+[5.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/lider_sub/share/lider_sub/package.bash'
+[5.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/lider_sub/share/lider_sub/package.zsh'
+[5.560s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/open/work/install/lider_sub/share/colcon-core/packages/lider_sub)
+[5.643s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_custom_interfaces)
+[5.644s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_custom_interfaces' for CMake module files
+[5.645s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_custom_interfaces' for CMake config files
+[5.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'cmake_prefix_path')
+[5.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.ps1'
+[5.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.dsv'
+[5.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.sh'
+[5.650s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_custom_interfaces/lib'
+[5.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'ld_library_path_lib')
+[5.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.ps1'
+[5.651s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.dsv'
+[5.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.sh'
+[5.652s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_custom_interfaces/bin'
+[5.652s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_custom_interfaces/lib/pkgconfig/dynamixel_sdk_custom_interfaces.pc'
+[5.652s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_custom_interfaces/lib/python3.10/site-packages'
+[5.653s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_custom_interfaces/bin'
+[5.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.ps1'
+[5.654s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/open/work/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv'
+[5.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.sh'
+[5.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.bash'
+[5.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.zsh'
+[5.658s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/open/work/install/dynamixel_sdk_custom_interfaces/share/colcon-core/packages/dynamixel_sdk_custom_interfaces)
+[5.658s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/open/work/src/DynamixelSDK/dynamixel_sdk_examples' with build type 'ament_cmake'
+[5.658s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/open/work/src/DynamixelSDK/dynamixel_sdk_examples'
+[5.659s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.659s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/open/work/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/open/work/install/dynamixel_sdk_custom_interfaces:/home/open/work/install/dynamixel_sdk:/home/open/work/install/rplidar_ros:/home/open/work/install/dynamixel_sdk_examples:/home/open/work/install/parking:/home/open/work/install/object_detection:/home/open/work/install/lider_sub:/home/open/work/install/detect_lane:/home/open/work/install/core:/home/open/work/install/control_motor:/home/open/work/install/control:/home/open/work/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/open/work/build/dynamixel_sdk_examples -- -j16 -l16
+[5.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/open/work/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/open/work/install/dynamixel_sdk_custom_interfaces:/home/open/work/install/dynamixel_sdk:/home/open/work/install/rplidar_ros:/home/open/work/install/dynamixel_sdk_examples:/home/open/work/install/parking:/home/open/work/install/object_detection:/home/open/work/install/lider_sub:/home/open/work/install/detect_lane:/home/open/work/install/core:/home/open/work/install/control_motor:/home/open/work/install/control:/home/open/work/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/open/work/build/dynamixel_sdk_examples -- -j16 -l16
+[5.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/open/work/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/open/work/install/dynamixel_sdk_custom_interfaces:/home/open/work/install/dynamixel_sdk:/home/open/work/install/rplidar_ros:/home/open/work/install/dynamixel_sdk_examples:/home/open/work/install/parking:/home/open/work/install/object_detection:/home/open/work/install/lider_sub:/home/open/work/install/detect_lane:/home/open/work/install/core:/home/open/work/install/control_motor:/home/open/work/install/control:/home/open/work/install/camera:/opt/ros/humble /usr/bin/cmake --install /home/open/work/build/dynamixel_sdk_examples
+[5.804s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_examples)
+[5.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/open/work/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/open/work/install/dynamixel_sdk_custom_interfaces:/home/open/work/install/dynamixel_sdk:/home/open/work/install/rplidar_ros:/home/open/work/install/dynamixel_sdk_examples:/home/open/work/install/parking:/home/open/work/install/object_detection:/home/open/work/install/lider_sub:/home/open/work/install/detect_lane:/home/open/work/install/core:/home/open/work/install/control_motor:/home/open/work/install/control:/home/open/work/install/camera:/opt/ros/humble /usr/bin/cmake --install /home/open/work/build/dynamixel_sdk_examples
+[5.805s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_examples' for CMake module files
+[5.806s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_examples' for CMake config files
+[5.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'cmake_prefix_path')
+[5.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.ps1'
+[5.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.dsv'
+[5.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.sh'
+[5.808s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_examples/lib'
+[5.808s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_examples/bin'
+[5.808s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_examples/lib/pkgconfig/dynamixel_sdk_examples.pc'
+[5.809s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_examples/lib/python3.10/site-packages'
+[5.809s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_examples/bin'
+[5.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.ps1'
+[5.810s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/open/work/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv'
+[5.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.sh'
+[5.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.bash'
+[5.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.zsh'
+[5.812s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/open/work/install/dynamixel_sdk_examples/share/colcon-core/packages/dynamixel_sdk_examples)
+[5.858s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_examples)
+[5.858s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_examples' for CMake module files
+[5.859s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_examples' for CMake config files
+[5.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'cmake_prefix_path')
+[5.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.ps1'
+[5.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/open/work/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.dsv'
+[5.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/open/work/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.sh'
+[5.861s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_examples/lib'
+[5.861s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_examples/bin'
+[5.861s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_examples/lib/pkgconfig/dynamixel_sdk_examples.pc'
+[5.862s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_examples/lib/python3.10/site-packages'
+[5.862s] Level 1:colcon.colcon_core.environment:checking '/home/open/work/install/dynamixel_sdk_examples/bin'
+[5.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.ps1'
+[5.863s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/open/work/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv'
+[5.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.sh'
+[5.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.bash'
+[5.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/open/work/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.zsh'
+[5.865s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/open/work/install/dynamixel_sdk_examples/share/colcon-core/packages/dynamixel_sdk_examples)
+[5.866s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.866s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.866s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.866s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.876s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[5.876s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.876s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.876s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.881s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[5.882s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.883s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/open/work/install/local_setup.ps1'
+[5.885s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/open/work/install/_local_setup_util_ps1.py'
+[5.887s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/open/work/install/setup.ps1'
+[5.889s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/open/work/install/local_setup.sh'
+[5.890s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/open/work/install/_local_setup_util_sh.py'
+[5.890s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/open/work/install/setup.sh'
+[5.892s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/open/work/install/local_setup.bash'
+[5.893s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/open/work/install/setup.bash'
+[5.895s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/open/work/install/local_setup.zsh'
+[5.896s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/open/work/install/setup.zsh'

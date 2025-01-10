@@ -1,0 +1,55 @@
+[1.980s] Invoking command in '/home/open/work/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/open/work/install/parking:/home/open/work/install/object_detection:/home/open/work/install/lider_sub:/home/open/work/install/detect_lane:/home/open/work/install/core:/home/open/work/install/control_motor:/home/open/work/install/control:/home/open/work/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/open/work/build/rplidar_ros -- -j16 -l16
+[2.071s] [  5%] Built target rplidar_client
+[2.088s] [ 94%] Built target rplidar_node
+[2.088s] [100%] Built target rplidar_composition
+[2.114s] Invoked command in '/home/open/work/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/open/work/install/parking:/home/open/work/install/object_detection:/home/open/work/install/lider_sub:/home/open/work/install/detect_lane:/home/open/work/install/core:/home/open/work/install/control_motor:/home/open/work/install/control:/home/open/work/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/open/work/build/rplidar_ros -- -j16 -l16
+[2.238s] Invoking command in '/home/open/work/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/open/work/install/parking:/home/open/work/install/object_detection:/home/open/work/install/lider_sub:/home/open/work/install/detect_lane:/home/open/work/install/core:/home/open/work/install/control_motor:/home/open/work/install/control:/home/open/work/install/camera:/opt/ros/humble /usr/bin/cmake --install /home/open/work/build/rplidar_ros
+[2.250s] -- Install configuration: ""
+[2.250s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/launch
+[2.251s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[2.251s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[2.251s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+[2.252s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[2.252s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[2.252s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[2.252s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[2.252s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[2.253s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[2.254s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[2.255s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[2.256s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[2.257s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[2.258s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[2.259s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[2.260s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[2.260s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[2.260s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[2.260s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[2.261s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[2.261s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py
+[2.261s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[2.262s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[2.262s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[2.262s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/rviz
+[2.262s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[2.262s] -- Up-to-date: /home/open/work/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[2.262s] -- Up-to-date: /home/open/work/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[2.263s] -- Up-to-date: /home/open/work/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[2.263s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[2.263s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[2.263s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[2.263s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[2.263s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[2.264s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[2.264s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[2.264s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[2.264s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[2.264s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[2.264s] -- Installing: /home/open/work/install/rplidar_ros/share/rplidar_ros/package.dsv
+[2.265s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[2.265s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.265s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.265s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[2.265s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[2.266s] -- Up-to-date: /home/open/work/install/rplidar_ros/share/rplidar_ros/package.xml
+[2.267s] Invoked command in '/home/open/work/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/open/work/install/parking:/home/open/work/install/object_detection:/home/open/work/install/lider_sub:/home/open/work/install/detect_lane:/home/open/work/install/core:/home/open/work/install/control_motor:/home/open/work/install/control:/home/open/work/install/camera:/opt/ros/humble /usr/bin/cmake --install /home/open/work/build/rplidar_ros

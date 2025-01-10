@@ -1,0 +1,7 @@
+[console_scripts]
+detect_lane = detect_lane.detect_lane:main
+hsv_param_adjustment = detect_lane.hsv_param_adjustment:main
+key_pub_signs = detect_lane.key_pub_signs:main
+recive_key_pub_signs = detect_lane.recive_key_pub_signs:main
+test_key_pub_signs = detect_lane.test_key_pub_signs:main
+

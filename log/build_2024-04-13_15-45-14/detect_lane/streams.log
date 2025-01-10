@@ -1,0 +1,23 @@
+[3.183s] Invoking command in '/home/open/work/src/detect/detect_lane': PYTHONPATH=/home/open/work/build/detect_lane/prefix_override:/home/open/work/install/detect_lane/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/detect_lane build --build-base /home/open/work/build/detect_lane/build install --record /home/open/work/build/detect_lane/install.log --single-version-externally-managed install_data
+[3.642s] running egg_info
+[3.643s] writing ../../../build/detect_lane/detect_lane.egg-info/PKG-INFO
+[3.643s] writing dependency_links to ../../../build/detect_lane/detect_lane.egg-info/dependency_links.txt
+[3.644s] writing entry points to ../../../build/detect_lane/detect_lane.egg-info/entry_points.txt
+[3.644s] writing requirements to ../../../build/detect_lane/detect_lane.egg-info/requires.txt
+[3.644s] writing top-level names to ../../../build/detect_lane/detect_lane.egg-info/top_level.txt
+[3.647s] reading manifest file '../../../build/detect_lane/detect_lane.egg-info/SOURCES.txt'
+[3.648s] writing manifest file '../../../build/detect_lane/detect_lane.egg-info/SOURCES.txt'
+[3.648s] running build
+[3.648s] running build_py
+[3.649s] running install
+[3.650s] running install_lib
+[3.652s] running install_data
+[3.652s] copying config/hsv_parameters_own.yaml -> /home/open/work/install/detect_lane/share/detect_lane/config
+[3.652s] running install_egg_info
+[3.655s] removing '/home/open/work/install/detect_lane/lib/python3.10/site-packages/detect_lane-0.0.0-py3.10.egg-info' (and everything under it)
+[3.656s] Copying ../../../build/detect_lane/detect_lane.egg-info to /home/open/work/install/detect_lane/lib/python3.10/site-packages/detect_lane-0.0.0-py3.10.egg-info
+[3.657s] running install_scripts
+[3.695s] Installing detect_lane script to /home/open/work/install/detect_lane/lib/detect_lane
+[3.695s] Installing hsv_param_adjustment script to /home/open/work/install/detect_lane/lib/detect_lane
+[3.695s] writing list of installed files to '/home/open/work/build/detect_lane/install.log'
+[3.743s] Invoked command in '/home/open/work/src/detect/detect_lane' returned '0': PYTHONPATH=/home/open/work/build/detect_lane/prefix_override:/home/open/work/install/detect_lane/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/detect_lane build --build-base /home/open/work/build/detect_lane/build install --record /home/open/work/build/detect_lane/install.log --single-version-externally-managed install_data

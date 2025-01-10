@@ -1,0 +1,57 @@
+[1.971s] Invoking command in '/home/open/work/src/detect/object_detection': PYTHONPATH=/home/open/work/build/object_detection/prefix_override:/home/open/work/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/object_detection build --build-base /home/open/work/build/object_detection/build install --record /home/open/work/build/object_detection/install.log --single-version-externally-managed install_data
+[2.325s] running egg_info
+[2.327s] creating ../../../build/object_detection/object_detection.egg-info
+[2.328s] writing ../../../build/object_detection/object_detection.egg-info/PKG-INFO
+[2.328s] writing dependency_links to ../../../build/object_detection/object_detection.egg-info/dependency_links.txt
+[2.328s] writing entry points to ../../../build/object_detection/object_detection.egg-info/entry_points.txt
+[2.328s] writing requirements to ../../../build/object_detection/object_detection.egg-info/requires.txt
+[2.328s] writing top-level names to ../../../build/object_detection/object_detection.egg-info/top_level.txt
+[2.329s] writing manifest file '../../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[2.333s] reading manifest file '../../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[2.334s] writing manifest file '../../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[2.334s] running build
+[2.334s] running build_py
+[2.334s] creating /home/open/work/build/object_detection/build
+[2.334s] creating /home/open/work/build/object_detection/build/lib
+[2.334s] creating /home/open/work/build/object_detection/build/lib/object_detection
+[2.335s] copying object_detection/object_detection.py -> /home/open/work/build/object_detection/build/lib/object_detection
+[2.335s] copying object_detection/__init__.py -> /home/open/work/build/object_detection/build/lib/object_detection
+[2.337s] running install
+[2.340s] running install_lib
+[2.341s] creating /home/open/work/install/object_detection/lib/python3.10/site-packages/object_detection
+[2.341s] copying /home/open/work/build/object_detection/build/lib/object_detection/object_detection.py -> /home/open/work/install/object_detection/lib/python3.10/site-packages/object_detection
+[2.341s] copying /home/open/work/build/object_detection/build/lib/object_detection/__init__.py -> /home/open/work/install/object_detection/lib/python3.10/site-packages/object_detection
+[2.341s] byte-compiling /home/open/work/install/object_detection/lib/python3.10/site-packages/object_detection/object_detection.py to object_detection.cpython-310.pyc
+[2.342s] byte-compiling /home/open/work/install/object_detection/lib/python3.10/site-packages/object_detection/__init__.py to __init__.cpython-310.pyc
+[2.342s] running install_data
+[2.342s] creating /home/open/work/install/object_detection/share/ament_index
+[2.342s] creating /home/open/work/install/object_detection/share/ament_index/resource_index
+[2.343s] creating /home/open/work/install/object_detection/share/ament_index/resource_index/packages
+[2.343s] copying resource/object_detection -> /home/open/work/install/object_detection/share/ament_index/resource_index/packages
+[2.343s] copying package.xml -> /home/open/work/install/object_detection/share/object_detection
+[2.343s] creating /home/open/work/install/object_detection/share/object_detection/launch
+[2.343s] copying launch/object_detection_launch.py -> /home/open/work/install/object_detection/share/object_detection/launch
+[2.343s] creating /home/open/work/install/object_detection/share/object_detection/weights
+[2.343s] copying weights/sign.pt -> /home/open/work/install/object_detection/share/object_detection/weights
+[2.463s] creating /home/open/work/install/object_detection/lib/object_detection
+[2.463s] creating /home/open/work/install/object_detection/lib/object_detection/models
+[2.463s] copying models/experimental.py -> /home/open/work/install/object_detection/lib/object_detection/models/
+[2.463s] copying models/common.py -> /home/open/work/install/object_detection/lib/object_detection/models/
+[2.464s] copying models/yolo.py -> /home/open/work/install/object_detection/lib/object_detection/models/
+[2.464s] creating /home/open/work/install/object_detection/lib/object_detection/utils
+[2.464s] copying utils/general.py -> /home/open/work/install/object_detection/lib/object_detection/utils/
+[2.465s] copying utils/torch_utils.py -> /home/open/work/install/object_detection/lib/object_detection/utils/
+[2.465s] copying utils/plots.py -> /home/open/work/install/object_detection/lib/object_detection/utils/
+[2.465s] copying utils/datasets.py -> /home/open/work/install/object_detection/lib/object_detection/utils/
+[2.466s] copying utils/google_utils.py -> /home/open/work/install/object_detection/lib/object_detection/utils/
+[2.466s] copying utils/activations.py -> /home/open/work/install/object_detection/lib/object_detection/utils/
+[2.466s] copying utils/add_nms.py -> /home/open/work/install/object_detection/lib/object_detection/utils/
+[2.466s] copying utils/autoanchor.py -> /home/open/work/install/object_detection/lib/object_detection/utils/
+[2.466s] copying utils/loss.py -> /home/open/work/install/object_detection/lib/object_detection/utils/
+[2.467s] copying utils/metrics.py -> /home/open/work/install/object_detection/lib/object_detection/utils/
+[2.467s] running install_egg_info
+[2.470s] Copying ../../../build/object_detection/object_detection.egg-info to /home/open/work/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info
+[2.471s] running install_scripts
+[2.487s] Installing object_detection script to /home/open/work/install/object_detection/lib/object_detection
+[2.487s] writing list of installed files to '/home/open/work/build/object_detection/install.log'
+[2.510s] Invoked command in '/home/open/work/src/detect/object_detection' returned '0': PYTHONPATH=/home/open/work/build/object_detection/prefix_override:/home/open/work/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/object_detection build --build-base /home/open/work/build/object_detection/build install --record /home/open/work/build/object_detection/install.log --single-version-externally-managed install_data

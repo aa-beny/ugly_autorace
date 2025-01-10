@@ -1,0 +1,21 @@
+[1.948s] Invoking command in '/home/open/work/src/detect/object_detection': PYTHONPATH=/home/open/work/build/object_detection/prefix_override:/home/open/work/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/object_detection build --build-base /home/open/work/build/object_detection/build install --record /home/open/work/build/object_detection/install.log --single-version-externally-managed install_data
+[2.137s] running egg_info
+[2.138s] writing ../../../build/object_detection/object_detection.egg-info/PKG-INFO
+[2.138s] writing dependency_links to ../../../build/object_detection/object_detection.egg-info/dependency_links.txt
+[2.138s] writing entry points to ../../../build/object_detection/object_detection.egg-info/entry_points.txt
+[2.139s] writing requirements to ../../../build/object_detection/object_detection.egg-info/requires.txt
+[2.139s] writing top-level names to ../../../build/object_detection/object_detection.egg-info/top_level.txt
+[2.140s] reading manifest file '../../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[2.141s] writing manifest file '../../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[2.141s] running build
+[2.141s] running build_py
+[2.141s] running install
+[2.142s] running install_lib
+[2.143s] running install_data
+[2.143s] running install_egg_info
+[2.145s] removing '/home/open/work/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[2.145s] Copying ../../../build/object_detection/object_detection.egg-info to /home/open/work/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info
+[2.146s] running install_scripts
+[2.163s] Installing object_detection script to /home/open/work/install/object_detection/lib/object_detection
+[2.163s] writing list of installed files to '/home/open/work/build/object_detection/install.log'
+[2.189s] Invoked command in '/home/open/work/src/detect/object_detection' returned '0': PYTHONPATH=/home/open/work/build/object_detection/prefix_override:/home/open/work/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/object_detection build --build-base /home/open/work/build/object_detection/build install --record /home/open/work/build/object_detection/install.log --single-version-externally-managed install_data

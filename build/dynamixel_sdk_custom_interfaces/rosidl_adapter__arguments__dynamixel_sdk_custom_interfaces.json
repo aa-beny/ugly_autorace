@@ -1,0 +1,10 @@
+{
+  "package_name": "dynamixel_sdk_custom_interfaces",
+  "non_idl_tuples": [
+    "/home/open/work/src/DynamixelSDK/dynamixel_sdk_custom_interfaces:msg/SetPosition.msg",
+    "/home/open/work/src/DynamixelSDK/dynamixel_sdk_custom_interfaces:msg/SetVelocity.msg",
+    "/home/open/work/src/DynamixelSDK/dynamixel_sdk_custom_interfaces:msg/SetVelocityDual.msg",
+    "/home/open/work/src/DynamixelSDK/dynamixel_sdk_custom_interfaces:srv/GetPosition.srv",
+    "/home/open/work/src/DynamixelSDK/dynamixel_sdk_custom_interfaces:srv/GetVelocity.srv"
+  ]
+}

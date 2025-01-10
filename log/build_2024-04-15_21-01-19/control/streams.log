@@ -1,0 +1,21 @@
+[1.902s] Invoking command in '/home/open/work/src/control': PYTHONPATH=/home/open/work/build/control/prefix_override:/home/open/work/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/open/work/build/control/build install --record /home/open/work/build/control/install.log --single-version-externally-managed install_data
+[2.139s] running egg_info
+[2.140s] writing ../../build/control/control.egg-info/PKG-INFO
+[2.140s] writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt
+[2.140s] writing entry points to ../../build/control/control.egg-info/entry_points.txt
+[2.140s] writing requirements to ../../build/control/control.egg-info/requires.txt
+[2.140s] writing top-level names to ../../build/control/control.egg-info/top_level.txt
+[2.142s] reading manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[2.143s] writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[2.143s] running build
+[2.143s] running build_py
+[2.144s] running install
+[2.144s] running install_lib
+[2.145s] running install_data
+[2.145s] running install_egg_info
+[2.147s] removing '/home/open/work/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info' (and everything under it)
+[2.147s] Copying ../../build/control/control.egg-info to /home/open/work/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info
+[2.148s] running install_scripts
+[2.165s] Installing control_lane script to /home/open/work/install/control/lib/control
+[2.166s] writing list of installed files to '/home/open/work/build/control/install.log'
+[2.188s] Invoked command in '/home/open/work/src/control' returned '0': PYTHONPATH=/home/open/work/build/control/prefix_override:/home/open/work/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/open/work/build/control/build install --record /home/open/work/build/control/install.log --single-version-externally-managed install_data

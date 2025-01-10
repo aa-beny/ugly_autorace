@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/lider_sub/lider_sub.egg-info
+writing ../../build/lider_sub/lider_sub.egg-info/PKG-INFO
+writing dependency_links to ../../build/lider_sub/lider_sub.egg-info/dependency_links.txt
+writing entry points to ../../build/lider_sub/lider_sub.egg-info/entry_points.txt
+writing requirements to ../../build/lider_sub/lider_sub.egg-info/requires.txt
+writing top-level names to ../../build/lider_sub/lider_sub.egg-info/top_level.txt
+writing manifest file '../../build/lider_sub/lider_sub.egg-info/SOURCES.txt'
+reading manifest file '../../build/lider_sub/lider_sub.egg-info/SOURCES.txt'
+writing manifest file '../../build/lider_sub/lider_sub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/open/work/build/lider_sub/build
+creating /home/open/work/build/lider_sub/build/lib
+creating /home/open/work/build/lider_sub/build/lib/lider_sub
+copying lider_sub/__init__.py -> /home/open/work/build/lider_sub/build/lib/lider_sub
+copying lider_sub/lidersub.py -> /home/open/work/build/lider_sub/build/lib/lider_sub
+running install
+running install_lib
+creating /home/open/work/install/lider_sub/lib/python3.10/site-packages/lider_sub
+copying /home/open/work/build/lider_sub/build/lib/lider_sub/__init__.py -> /home/open/work/install/lider_sub/lib/python3.10/site-packages/lider_sub
+copying /home/open/work/build/lider_sub/build/lib/lider_sub/lidersub.py -> /home/open/work/install/lider_sub/lib/python3.10/site-packages/lider_sub
+byte-compiling /home/open/work/install/lider_sub/lib/python3.10/site-packages/lider_sub/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/open/work/install/lider_sub/lib/python3.10/site-packages/lider_sub/lidersub.py to lidersub.cpython-310.pyc
+running install_data
+creating /home/open/work/install/lider_sub/share/lider_sub/launch
+copying launch/lider_sub_launch.py -> /home/open/work/install/lider_sub/share/lider_sub/launch
+creating /home/open/work/install/lider_sub/share/lider_sub/config
+creating /home/open/work/install/lider_sub/share/ament_index
+creating /home/open/work/install/lider_sub/share/ament_index/resource_index
+creating /home/open/work/install/lider_sub/share/ament_index/resource_index/packages
+copying resource/lider_sub -> /home/open/work/install/lider_sub/share/ament_index/resource_index/packages
+copying package.xml -> /home/open/work/install/lider_sub/share/lider_sub
+running install_egg_info
+Copying ../../build/lider_sub/lider_sub.egg-info to /home/open/work/install/lider_sub/lib/python3.10/site-packages/lider_sub-0.0.0-py3.10.egg-info
+running install_scripts
+Installing lider_sub script to /home/open/work/install/lider_sub/lib/lider_sub
+writing list of installed files to '/home/open/work/build/lider_sub/install.log'

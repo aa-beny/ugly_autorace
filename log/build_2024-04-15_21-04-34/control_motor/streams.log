@@ -1,0 +1,23 @@
+[1.954s] Invoking command in '/home/open/work/src/DynamixelSDK/control_motor': PYTHONPATH=/home/open/work/build/control_motor/prefix_override:/home/open/work/install/control_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/control_motor build --build-base /home/open/work/build/control_motor/build install --record /home/open/work/build/control_motor/install.log --single-version-externally-managed install_data
+[2.179s] running egg_info
+[2.179s] writing ../../../build/control_motor/control_motor.egg-info/PKG-INFO
+[2.180s] writing dependency_links to ../../../build/control_motor/control_motor.egg-info/dependency_links.txt
+[2.180s] writing entry points to ../../../build/control_motor/control_motor.egg-info/entry_points.txt
+[2.180s] writing requirements to ../../../build/control_motor/control_motor.egg-info/requires.txt
+[2.180s] writing top-level names to ../../../build/control_motor/control_motor.egg-info/top_level.txt
+[2.183s] reading manifest file '../../../build/control_motor/control_motor.egg-info/SOURCES.txt'
+[2.184s] writing manifest file '../../../build/control_motor/control_motor.egg-info/SOURCES.txt'
+[2.184s] running build
+[2.184s] running build_py
+[2.184s] running install
+[2.184s] running install_lib
+[2.186s] running install_data
+[2.186s] running install_egg_info
+[2.187s] removing '/home/open/work/install/control_motor/lib/python3.10/site-packages/control_motor-0.0.0-py3.10.egg-info' (and everything under it)
+[2.187s] Copying ../../../build/control_motor/control_motor.egg-info to /home/open/work/install/control_motor/lib/python3.10/site-packages/control_motor-0.0.0-py3.10.egg-info
+[2.188s] running install_scripts
+[2.208s] Installing Twist2Speed script to /home/open/work/install/control_motor/lib/control_motor
+[2.209s] Installing control_dual_xl script to /home/open/work/install/control_motor/lib/control_motor
+[2.209s] Installing control_dual_xm script to /home/open/work/install/control_motor/lib/control_motor
+[2.209s] writing list of installed files to '/home/open/work/build/control_motor/install.log'
+[2.238s] Invoked command in '/home/open/work/src/DynamixelSDK/control_motor' returned '0': PYTHONPATH=/home/open/work/build/control_motor/prefix_override:/home/open/work/install/control_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/control_motor build --build-base /home/open/work/build/control_motor/build install --record /home/open/work/build/control_motor/install.log --single-version-externally-managed install_data

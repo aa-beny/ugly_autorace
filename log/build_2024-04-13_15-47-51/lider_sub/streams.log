@@ -1,0 +1,21 @@
+[2.853s] Invoking command in '/home/open/work/src/lider_sub': PYTHONPATH=/home/open/work/build/lider_sub/prefix_override:/home/open/work/install/lider_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lider_sub build --build-base /home/open/work/build/lider_sub/build install --record /home/open/work/build/lider_sub/install.log --single-version-externally-managed install_data
+[3.261s] running egg_info
+[3.261s] writing ../../build/lider_sub/lider_sub.egg-info/PKG-INFO
+[3.262s] writing dependency_links to ../../build/lider_sub/lider_sub.egg-info/dependency_links.txt
+[3.262s] writing entry points to ../../build/lider_sub/lider_sub.egg-info/entry_points.txt
+[3.262s] writing requirements to ../../build/lider_sub/lider_sub.egg-info/requires.txt
+[3.262s] writing top-level names to ../../build/lider_sub/lider_sub.egg-info/top_level.txt
+[3.265s] reading manifest file '../../build/lider_sub/lider_sub.egg-info/SOURCES.txt'
+[3.266s] writing manifest file '../../build/lider_sub/lider_sub.egg-info/SOURCES.txt'
+[3.266s] running build
+[3.266s] running build_py
+[3.266s] running install
+[3.266s] running install_lib
+[3.268s] running install_data
+[3.269s] running install_egg_info
+[3.271s] removing '/home/open/work/install/lider_sub/lib/python3.10/site-packages/lider_sub-0.0.0-py3.10.egg-info' (and everything under it)
+[3.272s] Copying ../../build/lider_sub/lider_sub.egg-info to /home/open/work/install/lider_sub/lib/python3.10/site-packages/lider_sub-0.0.0-py3.10.egg-info
+[3.272s] running install_scripts
+[3.303s] Installing lider_sub script to /home/open/work/install/lider_sub/lib/lider_sub
+[3.304s] writing list of installed files to '/home/open/work/build/lider_sub/install.log'
+[3.333s] Invoked command in '/home/open/work/src/lider_sub' returned '0': PYTHONPATH=/home/open/work/build/lider_sub/prefix_override:/home/open/work/install/lider_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lider_sub build --build-base /home/open/work/build/lider_sub/build install --record /home/open/work/build/lider_sub/install.log --single-version-externally-managed install_data

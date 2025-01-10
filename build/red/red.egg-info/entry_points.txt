@@ -1,0 +1,3 @@
+[console_scripts]
+red = red.camera_red_green_light:main
+

@@ -1,0 +1,3 @@
+[console_scripts]
+lider_sub = lider_sub.lidersub:main
+

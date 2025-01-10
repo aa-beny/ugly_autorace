@@ -1,0 +1,21 @@
+[1.758s] Invoking command in '/home/open/work/src/red': PYTHONPATH=/home/open/work/build/red/prefix_override:/home/open/work/install/red/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/red build --build-base /home/open/work/build/red/build install --record /home/open/work/build/red/install.log --single-version-externally-managed install_data
+[1.960s] running egg_info
+[1.960s] writing ../../build/red/red.egg-info/PKG-INFO
+[1.961s] writing dependency_links to ../../build/red/red.egg-info/dependency_links.txt
+[1.962s] writing entry points to ../../build/red/red.egg-info/entry_points.txt
+[1.962s] writing requirements to ../../build/red/red.egg-info/requires.txt
+[1.962s] writing top-level names to ../../build/red/red.egg-info/top_level.txt
+[1.964s] reading manifest file '../../build/red/red.egg-info/SOURCES.txt'
+[1.964s] writing manifest file '../../build/red/red.egg-info/SOURCES.txt'
+[1.965s] running build
+[1.965s] running build_py
+[1.965s] running install
+[1.965s] running install_lib
+[1.967s] running install_data
+[1.967s] running install_egg_info
+[1.969s] removing '/home/open/work/install/red/lib/python3.10/site-packages/red-0.0.0-py3.10.egg-info' (and everything under it)
+[1.969s] Copying ../../build/red/red.egg-info to /home/open/work/install/red/lib/python3.10/site-packages/red-0.0.0-py3.10.egg-info
+[1.970s] running install_scripts
+[1.995s] Installing red script to /home/open/work/install/red/lib/red
+[1.995s] writing list of installed files to '/home/open/work/build/red/install.log'
+[2.019s] Invoked command in '/home/open/work/src/red' returned '0': PYTHONPATH=/home/open/work/build/red/prefix_override:/home/open/work/install/red/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/red build --build-base /home/open/work/build/red/build install --record /home/open/work/build/red/install.log --single-version-externally-managed install_data

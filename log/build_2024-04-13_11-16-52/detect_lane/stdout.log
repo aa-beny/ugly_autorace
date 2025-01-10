@@ -1,0 +1,46 @@
+running egg_info
+creating ../../../build/detect_lane/detect_lane.egg-info
+writing ../../../build/detect_lane/detect_lane.egg-info/PKG-INFO
+writing dependency_links to ../../../build/detect_lane/detect_lane.egg-info/dependency_links.txt
+writing entry points to ../../../build/detect_lane/detect_lane.egg-info/entry_points.txt
+writing requirements to ../../../build/detect_lane/detect_lane.egg-info/requires.txt
+writing top-level names to ../../../build/detect_lane/detect_lane.egg-info/top_level.txt
+writing manifest file '../../../build/detect_lane/detect_lane.egg-info/SOURCES.txt'
+reading manifest file '../../../build/detect_lane/detect_lane.egg-info/SOURCES.txt'
+writing manifest file '../../../build/detect_lane/detect_lane.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/open/work/build/detect_lane/build
+creating /home/open/work/build/detect_lane/build/lib
+creating /home/open/work/build/detect_lane/build/lib/detect_lane
+copying detect_lane/hsv_param_adjustment.py -> /home/open/work/build/detect_lane/build/lib/detect_lane
+copying detect_lane/detect_lane.py -> /home/open/work/build/detect_lane/build/lib/detect_lane
+copying detect_lane/__init__.py -> /home/open/work/build/detect_lane/build/lib/detect_lane
+running install
+running install_lib
+creating /home/open/work/install/detect_lane/lib/python3.10/site-packages/detect_lane
+copying /home/open/work/build/detect_lane/build/lib/detect_lane/hsv_param_adjustment.py -> /home/open/work/install/detect_lane/lib/python3.10/site-packages/detect_lane
+copying /home/open/work/build/detect_lane/build/lib/detect_lane/detect_lane.py -> /home/open/work/install/detect_lane/lib/python3.10/site-packages/detect_lane
+copying /home/open/work/build/detect_lane/build/lib/detect_lane/__init__.py -> /home/open/work/install/detect_lane/lib/python3.10/site-packages/detect_lane
+byte-compiling /home/open/work/install/detect_lane/lib/python3.10/site-packages/detect_lane/hsv_param_adjustment.py to hsv_param_adjustment.cpython-310.pyc
+byte-compiling /home/open/work/install/detect_lane/lib/python3.10/site-packages/detect_lane/detect_lane.py to detect_lane.cpython-310.pyc
+byte-compiling /home/open/work/install/detect_lane/lib/python3.10/site-packages/detect_lane/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/open/work/install/detect_lane/share/ament_index
+creating /home/open/work/install/detect_lane/share/ament_index/resource_index
+creating /home/open/work/install/detect_lane/share/ament_index/resource_index/packages
+copying resource/detect_lane -> /home/open/work/install/detect_lane/share/ament_index/resource_index/packages
+copying package.xml -> /home/open/work/install/detect_lane/share/detect_lane
+creating /home/open/work/install/detect_lane/share/detect_lane/launch
+copying launch/detect_lane_launch.py -> /home/open/work/install/detect_lane/share/detect_lane/launch
+creating /home/open/work/install/detect_lane/share/detect_lane/config
+copying config/hsv_parameters_own.yaml -> /home/open/work/install/detect_lane/share/detect_lane/config
+copying config/hsv_parameters_default.yaml -> /home/open/work/install/detect_lane/share/detect_lane/config
+copying config/calibration_mode.rviz -> /home/open/work/install/detect_lane/share/detect_lane/config
+copying config/lane_mode.rviz -> /home/open/work/install/detect_lane/share/detect_lane/config
+running install_egg_info
+Copying ../../../build/detect_lane/detect_lane.egg-info to /home/open/work/install/detect_lane/lib/python3.10/site-packages/detect_lane-0.0.0-py3.10.egg-info
+running install_scripts
+Installing detect_lane script to /home/open/work/install/detect_lane/lib/detect_lane
+Installing hsv_param_adjustment script to /home/open/work/install/detect_lane/lib/detect_lane
+writing list of installed files to '/home/open/work/build/detect_lane/install.log'
